@@ -33,8 +33,6 @@ export default new Router({
     //账户管理路由的配置
     {name:'login' , path:'/login' , component:Login},
     //商城路由配置
-    {name:'shop' , path:'/' , component:Shop,children:[
-      ...goods , ...shopcart , ...order
-    ]}
+    { name: 'shop', path: '/', component: Shop, children: [...goods, ...shopcart, ...order] },
   ]
 })
