@@ -12,7 +12,7 @@ import GoodsDetail from '../components/shop/goods/Detail'
 import GoodsList from '../components/shop/goods/List'
 
 import Shopcart from '../components/shop/shopcart/Shopcart'
-import SubcomHeader from '../components/shop/subcom/Header'
+// import SubcomHeader from '../components/shop/subcom/Header'
 
 Vue.use(Router)
 
